@@ -1,0 +1,97 @@
+body{
+    font: "Lato";
+    
+}
+
+.background{
+  width: 100%;
+  height: 700px;
+  overflow-y: hidden;
+  background-image: url('/img/bg.svg');
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.left-badge{
+    background-color: rgba(71, 178, 233, 0.95);
+    height: 407px;
+    margin-top: 57px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+
+.right-badge{
+    background-color: #062D4C;
+    height: 512px;
+    border-radius: 4px;
+    padding-top: 100px;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 2;
+
+    p{
+        color: #4CB3D6;
+        margin-top: 40px;
+    }
+    
+    span{
+        color:rgba(81, 217, 229, 0.26);
+        margin-top: 60px;
+        position: absolute;
+    }
+}
+
+.form{
+    width: 90% !important;
+    background-color: rgba(71, 178, 233, 0.95) !important;
+    color: #ffffff !important;
+    font-size: 16px;
+    border: none !important;
+    border-bottom: 2px solid #fff !important;
+    margin-top: 30px !important;
+    padding-bottom: 10px !important;
+
+    
+
+}
+.form::placeholder{
+    color: #fff !important;
+}
+
+
+.form-group{
+    margin: 50px 58px !important;
+}
+
+.pass-link{
+    padding-top: 35px;
+    position: absolute;
+    padding-left: 30px;
+    color: #062D4C;
+    font-size: 13px;
+}
+
+.link{
+    color: #062D4C;
+    margin: 40px 65x;
+    float: right !important;
+
+    a{
+        color: #fff;
+    }
+}
+
+
+.btn-submit{
+    margin-top: 30px;
+    width: 91px;
+    height: 35px;
+    border: 1px solid #fff !important;
+    color: #fff;
+    background-color: rgba(81, 217, 229, 0.26) !important;
+    border-radius: 40px !important;
+    
+}
