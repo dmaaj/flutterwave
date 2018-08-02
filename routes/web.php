@@ -10,6 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+if ($this->app->environment() == 'production') {
+    URL::forceScheme('https');
+}
 
 Route::get('/', 'HomeController@index');
 
