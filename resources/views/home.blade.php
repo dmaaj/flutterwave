@@ -55,19 +55,29 @@
              
         </div>
     </div>
-    <table class="table">
+    <table class="table pend">
+        <colgroup>
+            <col span="1" style="width: 111px !important;">
+            <col span="1" style="width: 222px !important;">
+            <col span="1" style="width: 222px !important;">
+            <col span="1" style="width: 111px !important;">
+            <col span="1" style="width: 222px !important;">
+            <col span="1" style="width: 111px !important;">
+            <col span="1" style="width: 111px !important;">
+        </colgroup> 
         <thead>
         <tr>
-            <td class="col-md-1"> Id </td>
-            <td class="col-md-2"> Name </td>
-            <td class="col-md-2"> Email </td>
-            <td class="col-md-2"> Session </td>
-            <td class="col-md-2"> Fee </td>
-            <td class="col-md-2"> Amount </td>
-            <td class="col-md-1"> Action </td> 
+            <td class="pending"> Id </td>
+            <td class="pending"> Name </td>
+            <td class="pending"> Email </td>
+            <td class="pending"> Session </td>
+            <td class="pending"> Fee </td>
+            <td class="pending"> Amount </td>
+            <td class="pending"> Action </td> 
         </tr>
 </thead>
-</table >
+
+</table>
 
             @if($fees_count > 0)
             
@@ -80,20 +90,29 @@
             <input type="hidden" value="{{$fee->fee}}" name="fee" id="fee">
             <input type="hidden" value="{{$fee->amount}}" name="amount" id="amount">
             </form>
-        <table class="table">
-        <tbody class="table-container"> 
+        <table class="table pend">
+        <colgroup>
+            <col span="1" style="width: 111px !important;">
+            <col span="1" style="width: 222px !important;">
+            <col span="1" style="width: 222px !important;">
+            <col span="1" style="width: 111px !important;">
+            <col span="1" style="width: 222px !important;">
+            <col span="1" style="width: 111px !important;">
+            <col span="1" style="width: 111px !important;">
+        </colgroup>
+        <thead> 
         <tr>
-            <td class="col-md-1">{{ $count++ }} </td>
-            <td class="col-md-2">{{ $user->name }} </td>
-            <td class="col-md-2">{{ $user->email }}  </td>
-            <td class="col-md-2"> {{ $fee->session }}</td>
-            <td class="col-md-2">{{ $fee->fee }} </td>
-            <td class="col-md-2">{{ $fee->amount }} </td>
-            <td class="col-md-1"> <button class="btn btn-primary submit" id="{{$fee->id}}"> Pay </button> </td>
+            <td class="pending">{{ $count++ }} </td>
+            <td class="pending">{{ $user->name }} </td>
+            <td class="pending">{{ $user->email }}  </td>
+            <td class="pending"> {{ $fee->session }}</td>
+            <td class="pending">{{ $fee->fee }} </td>
+            <td class="pending">{{ $fee->amount }} </td>
+            <td class="pending"> <button class="btn btn-primary submit" id="{{$fee->id}}"> Pay </button> </td>
             
         </tr>
         </tbody>
-
+</div>
     </table>
         @endforeach
             @endif
@@ -110,6 +129,15 @@
         </div>
     </div>
     <table class="table">
+    <colgroup>
+            <col span="1" style="width: 111px !important;">
+            <col span="1" style="width: 222px !important;">
+            <col span="1" style="width: 222px !important;">
+            <col span="1" style="width: 111px !important;">
+            <col span="1" style="width: 222px !important;">
+            <col span="1" style="width: 111px !important;">
+            <col span="1" style="width: 111px !important;">
+        </colgroup>
         <thead>
             <tr>
                 <td> Id </td>

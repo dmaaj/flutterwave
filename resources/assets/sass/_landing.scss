@@ -10,6 +10,10 @@ body{
   background-image: url('/img/bg.svg');
   background-position: center;
   background-size: cover;
+
+  @include medium-screen{
+      height: 100%;
+  }
   
 }
 
@@ -54,6 +58,9 @@ body{
     margin-top: 30px !important;
     padding-bottom: 10px !important;
 
+    @include medium-screen{
+        width: 100% !important;
+    }
     
 
 }
@@ -64,6 +71,10 @@ body{
 
 .form-group{
     margin: 50px 58px !important;
+
+    @include medium-screen{
+        margin: 5px !important;
+    }
 }
 
 .pass-link{
@@ -74,10 +85,24 @@ body{
     font-size: 13px;
 }
 
+.account{
+
+    @include medium-screen{
+        margin-top: 70px;
+    }
+}
+
 .link{
     color: #062D4C;
     margin: 40px 65x;
+    padding-right: 110px;
     float: right !important;
+
+    @include medium-screen{
+        margin: 40px 5px !important;
+        float: none !important;
+        padding: 40px 0px;
+    }
 
     a{
         color: #fff;

@@ -11,6 +11,12 @@
   background-size: cover;
 }
 
+@media (max-width: 768px) {
+  .background {
+    height: 100%;
+  }
+}
+
 .left-badge {
   background-color: rgba(71, 178, 233, 0.95);
   height: 407px;
@@ -53,6 +59,12 @@
   padding-bottom: 10px !important;
 }
 
+@media (max-width: 768px) {
+  .form {
+    width: 100% !important;
+  }
+}
+
 .form::-webkit-input-placeholder {
   color: #fff !important;
 }
@@ -73,6 +85,12 @@
   margin: 50px 58px !important;
 }
 
+@media (max-width: 768px) {
+  .form-group {
+    margin: 5px !important;
+  }
+}
+
 .pass-link {
   padding-top: 35px;
   position: absolute;
@@ -81,10 +99,25 @@
   font-size: 13px;
 }
 
+@media (max-width: 768px) {
+  .account {
+    margin-top: 70px;
+  }
+}
+
 .link {
   color: #062D4C;
   margin: 40px 65x;
+  padding-right: 110px;
   float: right !important;
+}
+
+@media (max-width: 768px) {
+  .link {
+    margin: 40px 5px !important;
+    float: none !important;
+    padding: 40px 0px;
+  }
 }
 
 .link a {
@@ -113,8 +146,23 @@
   padding: 30px;
 }
 
+@media (max-width: 768px) {
+  .dash {
+    width: 100%;
+  }
+}
+
 .table {
   width: 100%;
+  background-color: #fff !important;
+}
+
+tr {
+  background-color: #fff !important;
+}
+
+table {
+  background-color: #fff !important;
 }
 
 /*!

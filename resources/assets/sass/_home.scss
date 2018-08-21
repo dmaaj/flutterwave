@@ -7,8 +7,31 @@
     background-color: #fff !important;
     margin:30px 50px;
     padding:30px;
+    
+    @include medium-screen{
+        width: 100%;
+    }
 }
 
 .table{
     width:100%;
+    background-color: #fff !important;
+    
+    .pend{
+        
+
+        
+    }
+    
+    
 }
+
+tr{
+    background-color: #fff !important;
+
+}
+
+table{
+    background-color: #fff !important;
+}
+

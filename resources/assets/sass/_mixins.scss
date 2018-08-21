@@ -1,0 +1,23 @@
+@mixin tablet {
+    @media (min-width: #{$large}) and (max-width: #{$desktop - 1px}) {
+      @content;
+    }
+}
+
+@mixin medium-screen {
+    @media (max-width: #{$medium}) {
+      @content;
+    }
+}
+
+@mixin small-screen {
+    @media (max-width: #{$small}) {
+      @content;
+    }
+}
+
+@mixin large-screen{
+  @media (max-width: #{$large}) {
+    @content;
+  }
+}

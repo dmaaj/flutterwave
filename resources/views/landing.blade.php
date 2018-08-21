@@ -16,13 +16,6 @@
                         <a href="" class="pass-link"> Forgot Password </a>
                     </form>
 
-                    <div class="row mx-5">
-                        <div class="col mx-5">
-                            <span class="link mt-4">
-                                Dont have an account? <a href="#"> Create an account</a>
-                            </span>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="col-md-4 right-badge px-4">

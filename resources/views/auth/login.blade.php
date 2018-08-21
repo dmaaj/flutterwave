@@ -24,8 +24,8 @@
                         <a href="{{ route('password.request') }}" class="pass-link"> Forgot Password </a>
                     </form>
 
-                    <div class="row mx-5">
-                        <div class="col mx-5">
+                    <div class="row account">
+                        <div class="col">
                             <span class="link mt-4">
                                 Dont have an account? <a href="{{ route('register') }}"> Create an account</a>
                             </span>
